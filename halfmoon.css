@@ -1,6 +1,9 @@
-/* The official Halfmoon theme */
+/* The official theme for Halfmoon */
 
 :root {
+  --font-family-sans-serif-display: "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Ubuntu, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif-small: "Segoe UI Variable Small", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Ubuntu, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif-text: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Ubuntu, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-serif: 'Linux Libertine', 'Linux Libertine Display O', Georgia, 'Noto Serif', 'Times New Roman', Times, serif;
   --base-border-radius: 0.75rem;
   --badge-border-radius: 0.4rem;
@@ -119,11 +122,11 @@
 }
 
 body {
-  font-family: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, Roboto, "Open Sans", "Noto Sans", Ubuntu, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--font-family-sans-serif-text);
 }
 
 /* For use in Nix */
 .article-wrapper h1, .article-wrapper h2, .content-wrapper .h1, .content-wrapper .h2 {
-  font-family: "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, Roboto, "Open Sans", "Noto Sans", Ubuntu, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--font-family-sans-serif-display);
   font-weight: 600;
 }
