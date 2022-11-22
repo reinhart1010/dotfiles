@@ -18,6 +18,10 @@ The following colours must be defined:
 #1c65ba
 */
 
+* {
+  font-family: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 body {
   background-color:#FFFFFF;
   color:#18294A;
