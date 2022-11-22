@@ -6,7 +6,7 @@ The following colours must be defined:
 #18294A
 #5cb85c
 #84B3DE
-#dddddd
+#CCE9FF
 #eeeeee
 #F2DEDE
 #888888
@@ -62,7 +62,7 @@ a:hover {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
  
-  background-color: #84B3DE;
+  background-color: #2182CC;
   color:white;
 }
 
@@ -72,12 +72,12 @@ a:hover {
   -moz-border-radius: 5px;
   border-radius: 5px;
 
-  background-color:#84B3DE;
+  background-color:#2182CC;
   color:white;
 }
 
 a.MenuItemLink, ul.SubMenu em {
-  background-color:#dddddd;
+  background-color:#CCE9FF;
   color:#18294A;
 }
 
@@ -106,7 +106,7 @@ table {
 }
 
 .TableCellDark {
-  background-color: #dddddd;
+  background-color: #CCE9FF;
 }
 
 .TableCellLight {
@@ -200,13 +200,13 @@ a.bookmarkAction {
   border: #FFFFFF solid 1px;
 }
 div.ProgressBarFill {
-  background-color:#dddddd;
+  background-color:#CCE9FF;
 }
 
 /* Searchresults */
 
 fieldset.maininput, fieldset.yacys { 
-  background-color:#dddddd;
+  background-color:#CCE9FF;
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -284,9 +284,9 @@ body#ViewLog pre {
 /* Forms */
 
 fieldset {
-  background-color:#dddddd;
+  background-color:#CCE9FF;
   color:#18294A;
-  border:0px solid #dddddd;
+  border:0px solid #CCE9FF;
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -321,10 +321,10 @@ legend a {
 }
 
 form dt, dl.pairs dt {
-  background-color:#dddddd;
+  background-color:#CCE9FF;
   font-weight:bold;
 }
 
 form dd, dl.pairs dd {
-  background-color:#dddddd;
+  background-color:#CCE9FF;
 }
