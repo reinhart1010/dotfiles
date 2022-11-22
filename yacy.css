@@ -18,6 +18,8 @@ The following colours must be defined:
 #1c65ba
 */
 
+@import url('https://fontbit.io/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 * {
   font-family: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -26,6 +28,10 @@ body {
   background-color:#FFFFFF;
   color:#18294A;
   font-family: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, Ubuntu, "Roboto Flex", Roboto, Helvetica, FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1, h2, h3 {
+  font-family: Lora, "Linux Libertine", "Times New Roman", serif;
 }
 
 a:link {
