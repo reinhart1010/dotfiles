@@ -1,11 +1,12 @@
 /* The official theme for Halfmoon */
 
 :root {
-  --font-family-sans-serif-display: "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Ubuntu, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-sans-serif-small: "Segoe UI Variable Small", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Ubuntu, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-sans-serif-text: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Ubuntu, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-serif: 'Linux Libertine', 'Linux Libertine Display O', Georgia, 'Noto Serif', 'Times New Roman', Times, serif;
+  --font-family-sans-serif-display: "Segoe UI Variable Display", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif-small: "Segoe UI Variable Small", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif-text: "Segoe UI Variable Text", -apple-system, BlinkMacSystemFont, Inter, "Segoe UI", Cantarell, "Open Sans", "Noto Sans", Piboto, "HarmonyOS Sans", Ubuntu, "Roboto Flex", Roboto, "Helvetica Neue", FreeSans, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-serif: ui-serif, "Aptos Serif", Constantia, Charter, "STIX Two Text", "Libertinus Serif", "Linux Libertine O", "Linux Libertine G", "Linux Libertine", "DejaVu Serif Condensed", "Bitstream Vera Serif Condensed", "Roboto Serif", "Noto Serif", "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --base-border-radius: 0.75rem;
+  --base-font-size: 1.8rem;
   --badge-border-radius: 0.4rem;
   --heading-font-weight: 700;
   --white-bg-color: #ECEFF4;
@@ -126,7 +127,7 @@ body {
 }
 
 /* For use in Nix */
-.article-wrapper h1, .article-wrapper h2, .content-wrapper .h1, .content-wrapper .h2 {
+.article-wrapper h1, .article-wrapper h2, .content-wrapper .h1, .content-wrapper .h2, .collapse-header {
   font-family: var(--font-family-sans-serif-display);
   font-weight: 600;
 }
