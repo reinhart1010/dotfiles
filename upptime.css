@@ -1,0 +1,18 @@
+/* Official theme for Upptime */
+:root {
+  --body-background-color: #F3F4F6;
+  --body-text-color: #000000;
+  --card-background-color: #DAF8DB;
+  --nav-background-color: #FFFFFF;
+  --nav-border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background-color: #111827;
+    --body-text-color: #FFFFFF;
+    --card-background-color: #053C10;
+    --nav-background-color: #1F2937;
+    --nav-border-bottom-color: rgba(255, 255, 255, 0.2);
+  }
+}
