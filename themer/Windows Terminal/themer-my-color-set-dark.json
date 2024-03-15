@@ -1,0 +1,23 @@
+{
+  "name": "Themer My Color Set Dark",
+  "background": "#001001",
+  "foreground": "#BBD7B9",
+  "cursorColor": "#C998FF",
+  "selectionBackground": "#7BB1FF",
+  "black": "#3E523E",
+  "brightBlack": "#5D735D",
+  "red": "#FF7970",
+  "brightRed": "#F89285",
+  "green": "#45DC5F",
+  "brightGreen": "#63E277",
+  "yellow": "#F5AC00",
+  "brightYellow": "#F0BB2B",
+  "blue": "#7BB1FF",
+  "brightBlue": "#8EBFF7",
+  "purple": "#C998FF",
+  "brightPurple": "#CCABF7",
+  "cyan": "#00DDFC",
+  "brightCyan": "#2CE2F5",
+  "white": "#BBD7B9",
+  "brightWhite": "#DAF8D8"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Themer My Color Set Light",
+  "background": "#F9FEF9",
+  "foreground": "#247224",
+  "cursorColor": "#946FE3",
+  "selectionBackground": "#5882EF",
+  "black": "#247224",
+  "brightBlack": "#478A47",
+  "red": "#DD5750",
+  "brightRed": "#E37872",
+  "green": "#2EA343",
+  "brightGreen": "#57B567",
+  "yellow": "#B67E00",
+  "brightYellow": "#C39832",
+  "blue": "#5882EF",
+  "brightBlue": "#789BF1",
+  "purple": "#946FE3",
+  "brightPurple": "#A88CE7",
+  "cyan": "#00A3BB",
+  "brightCyan": "#32B5C7",
+  "white": "#B2CFB2",
+  "brightWhite": "#D5E7D5"
+}

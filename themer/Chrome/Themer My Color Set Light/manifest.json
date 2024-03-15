@@ -1,0 +1,91 @@
+{
+  "version": "5.0.1",
+  "manifest_version": 2,
+  "name": "Themer My Color Set Light",
+  "theme": {
+    "colors": {
+      "bookmark_text": [
+        0,
+        91,
+        0
+      ],
+      "frame": [
+        213,
+        231,
+        213
+      ],
+      "ntp_background": [
+        249,
+        254,
+        249
+      ],
+      "ntp_text": [
+        0,
+        91,
+        0
+      ],
+      "tab_background_text": [
+        0,
+        91,
+        0
+      ],
+      "tab_background_text_inactive": [
+        0,
+        91,
+        0
+      ],
+      "tab_background_text_incognito": [
+        0,
+        91,
+        0
+      ],
+      "tab_background_text_incognito_inactive": [
+        0,
+        91,
+        0
+      ],
+      "tab_text": [
+        0,
+        91,
+        0
+      ],
+      "toolbar": [
+        249,
+        254,
+        249
+      ],
+      "omnibox_text": [
+        0,
+        91,
+        0
+      ],
+      "omnibox_background": [
+        213,
+        231,
+        213
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0.620309050772627,
+        0.5,
+        0.5
+      ],
+      "frame_inactive": [
+        -1,
+        -1,
+        -1
+      ],
+      "frame_incognito": [
+        0.7198275862068967,
+        1,
+        0.45
+      ],
+      "frame_incognito_inactive": [
+        0.7198275862068967,
+        1,
+        0.45
+      ]
+    }
+  }
+}
